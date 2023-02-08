@@ -2,22 +2,23 @@ import java.util.HashMap;
 
 public class PokedexImpl implements Pokedex{
 
-    @Override
+    private Pokemon pokemon;
+    private HashMap<String , String> debilidad;
+    private Ataque ataque;
+
+
     public Pokemon getPokemon() {
-        return null;
+        return pokemon;
     }
 
-    @Override
     public HashMap<String, String> getDebilidad() {
-        return null;
+        return debilidad;
     }
 
-    @Override
     public Ataque getAtaque() {
-        return null;
+        return ataque;
     }
 
-    @Override
     public Pokemon comparador(Pokemon p1, Pokemon p2) {
         return null;
     }
